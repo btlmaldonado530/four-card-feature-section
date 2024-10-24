@@ -54,21 +54,34 @@ header p {
 }
 
 .box1 {
-  border-top: 4px solid;
-  border-color: hsl(180, 62%, 55%);
+  border-top: 4px solid hsl(180, 62%, 55%);
 }
 
 .box2 {
-  border-top: 4px solid;
-  border-color: hsl(0, 78%, 62%);
+  border-top: 4px solid hsl(0, 78%, 62%);
 }
 
 .box3 {
-  border-top: 4px solid;
-  border-color: hsl(34, 97%, 64%);
+  border-top: 4px solid hsl(34, 97%, 64%);
 }
 
 .box4 {
-  border-top: 4px solid;
-  border-color: hsl(212, 86%, 64%);
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.box-text h5 {
+  font-size: 20px;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 10px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.box1,
+.box4 {
+  align-self: center;
 }
